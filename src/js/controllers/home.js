@@ -2,7 +2,7 @@
 function Home ($scope, $http, $state, $rootScope, $window, $location, $anchorScroll){
   $scope.goToAbout = function(){
     //$window.location()
-    $window.location.href = '#!/home#about'
+    $window.location.href = '#!/home#about';
     // $state.go('home')
     // $location.hash('about');
     // $anchorScroll();
@@ -11,13 +11,13 @@ function Home ($scope, $http, $state, $rootScope, $window, $location, $anchorScr
     // $state.go('home')
     // $location.hash('portfolio');
     // $anchorScroll();
-    $window.location.href = '#!/home#portfolio'
+    $window.location.href = '#!/home#portfolio';
   };
   $scope.goToContact = function(){
     // $state.go('home')
     // $location.hash('contact');
     // $anchorScroll();
-    $window.location.href = '#!/home#contact'
+    $window.location.href = '#!/home#contact';
   };
 }
 
