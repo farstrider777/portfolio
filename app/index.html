@@ -6,18 +6,26 @@
     <title>Josh's Portfolio</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Alegreya|Amatic+SC|Asar|Cinzel|Cormorant+Garamond|Josefin+Sans|Merriweather|Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
   <body ng-app="app" class="container">
-    <div>
-      <!-- <img class="guitar inline" ng-src="./images/guitar1.png"/> -->
-      <!-- <div class="inline menu">Joshua Bradford</div> -->
-      <!-- <div class="inline logo float-left">Joshua Bradford </div> -->
-        <div class="inline menu">Joshua Bradford Bio Contact Samples </div>
-
-
+    <div class="logo-menu-bar">
+      <div class="inline logo"><a href="#!/home">Joshua Bradford</a> </div>
+      <div class="inline menu" ng-controller="HomeController">
+        <a class="inline" ng-click="goToAbout()">About</a>
+        <a class="inline" ng-click="goToPortfolio()">Portfolio</a>
+        <a class="inline" href="#!/resume">Resume</a>
+        <a class="inline" href="https://medium.com/@joshuabradford">Blog</a>
+        <a class="inline" ng-click="goToContact()">Contact</a>
+      </div>
     </div>
     <div ui-view></div>
     <script src="js/bundle.js"></script>
   </body>
 </html>
+
+
+<!-- <div id="scrollArea" ng-controller="HomeController">
+  <a ng-click="gotoBottom()">Go to bottom</a>
+  <a id="bottom"></a> You're at the bottom!
+</div> -->
