@@ -1,8 +1,50 @@
 .container {
-  background-color: #1B2783;
+  background-color: #4B370D;
   font-size: 40px;
-  color: #7BDAFF;
+  color: #EEDDCD;
+  text-align: left;
+  font-family: 'Asar', serif;
+  letter-spacing: 5px;
+  // font-family: 'Merriweather', serif;
+  // font-family: 'Muli', sans-serif;
+  // font-family: 'Josefin Sans', sans-serif;
+  // font-family: 'Amatic SC', cursive;
+  // font-family: 'Alegreya', serif;
+  // font-family: 'Cinzel', serif;
+  // font-family: 'Cormorant Garamond', serif;
+}
+
+.home-container {
   text-align: center;
+  //background-color: black;
+  background-image: url(../images/photo2.jpg);
+  //background-color: white;
+  background-size: 1200px 800px;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  padding-left: 20px;
+  font-size: 24px;
+  position: fixed;
+  background-color: #4B370D;
+}
+
+.menu {
+  text-align: right;
+  font-size: 24px;
+  //padding-left: 600px;
+  position: fixed;
+  background-color: #4B370D;
+  width: 100%;
+}
+
+.float-right {
+  float-right: 1px;
+}
+
+.float-left {
+  float-left: 1px;
 }
 
 .inline {
