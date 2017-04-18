@@ -3,18 +3,44 @@
 // }
 
 ///////////////////////////index/////////////////////////
+article {
+  a {
+    text-decoration: none;
+  }
+
+  /* unvisited link */
+  a:link {
+      color: #EEDDCD;
+  }
+
+  /* visited link */
+  a:visited {
+      color: #EEDDCD;
+  }
+
+  /* mouse over link */
+  a:hover {
+      color: hotpink;
+  }
+
+  /* selected link */
+  a:active {
+      color: blue;
+  }
+}
+
 a {
   text-decoration: none;
 }
 
 /* unvisited link */
 a:link {
-    color: #EEDDCD;
+    color: #4B370D;
 }
 
 /* visited link */
 a:visited {
-    color: #EEDDCD;
+    color: #4B370D;
 }
 
 /* mouse over link */
@@ -82,11 +108,14 @@ a:active {
   display: inline-block;
 }
 
-#about {
+
+
+.about-title {
+  margin-top: 50px;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 3px;
   color: #EEDDCD;
-  font-size: 24px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -99,14 +128,97 @@ a:active {
   font-size: 14px;
 }
 
-.resume {
-  background-color: white;
-  border: 1px solid black;
-  margin: 5px;
-  border-radius: 5px;
-  width: 200px;
+.portfolio-title {
+  margin-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 3px;
+  color: #EEDDCD;
+  font-size: 30px;
+  text-align: center;
+}
+
+.portfolio-align {
+  margin-top: 10px;
+  // margin-left: 10%;
+  // margin-right: 10%;
+  width: 100%;
   font-size: 14px;
-  color: black;
+  text-align: center;
+}
+
+.portfolio-card {
+  margin-top: 50px;
+  img {
+    width: 350px;
+  }
+}
+
+.card-text {
+  background-color: #EEDDCD;
+  color: #4B370D;
+  width: 330px;
+  height: 145px;
+  vertical-align: top;
+  text-indent: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.card-text2 {
+  background-color: #EEDDCD;
+  color: #4B370D;
+  width: 330px;
+  height: 214px;
+  vertical-align: top;
+  text-indent: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.card-position {
+    background-color: #EEDDCD;
+    color: #4B370D;
+    width: 350px;
+    height: 150px;
+    vertical-align: top;
+    text-indent: 20px;
+    // padding-left: 10px;
+    // padding-right: 10px;
+}
+
+.card-title {
+  font-size: 24px;
+  text-align: center;
+  border-bottom: 1px solid #4B370D;
+  text-indent: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: top;
+}
+
+.contact-title {
+  margin-top: 80px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 3px;
+  color: #EEDDCD;
+  font-size: 30px;
+  text-align: center;
+}
+
+#about {
+
+}
+
+#portfolio {
+
+}
+
+#contact {
+
 }
 
 .resume-page {

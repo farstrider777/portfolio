@@ -18,8 +18,8 @@ function Config ($stateProvider, $urlRouterProvider) {
      });
 
 
-  $urlRouterProvider.when('', '/not-found');
-  $urlRouterProvider.otherwise('/not-found');
+  $urlRouterProvider.when('', '/home');
+  $urlRouterProvider.otherwise('/home');
 }
 
 Config.$inject = ['$stateProvider', '$urlRouterProvider'];
