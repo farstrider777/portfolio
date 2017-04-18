@@ -1,17 +1,23 @@
 
 function Home ($scope, $http, $state, $rootScope, $window, $location, $anchorScroll){
   $scope.goToAbout = function(){
-    console.log("hey")
-    $location.hash('about');
-    $anchorScroll();
+    //$window.location()
+    $window.location.href = '#!/home#about'
+    // $state.go('home')
+    // $location.hash('about');
+    // $anchorScroll();
   };
   $scope.goToPortfolio = function(){
-    $location.hash('portfolio');
-    $anchorScroll();
+    // $state.go('home')
+    // $location.hash('portfolio');
+    // $anchorScroll();
+    $window.location.href = '#!/home#portfolio'
   };
   $scope.goToContact = function(){
-    $location.hash('contact');
-    $anchorScroll();
+    // $state.go('home')
+    // $location.hash('contact');
+    // $anchorScroll();
+    $window.location.href = '#!/home#contact'
   };
 }
 
