@@ -125,7 +125,7 @@ a:active {
   margin-left: 10%;
   margin-right: 10%;
   width: 80%;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .portfolio-title {
@@ -232,16 +232,14 @@ a:active {
   }
 }
 
-#about {
-
-}
-
-#portfolio {
-
-}
-
-#contact {
-
+.interview-title {
+  margin-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 3px;
+  color: #EEDDCD;
+  font-size: 30px;
+  text-align: center;
+  //width: 100%;
 }
 
 .resume-page {
