@@ -271,18 +271,31 @@ text-align: left;
   //width: 100%;
 }
 
-.etsy-background {
-  //height: 752px;      10px 20px/752px 1100px
+.show-ranker-background {
+  width: 100%;
+  background: url("../images/show_ranker_preview2.jpg") no-repeat;
+  background-size: 100%;
+  text-align: center;
+  vertical-align: bottom;
+  padding-top: 450px;
+}
 
+.whack-a-bug-background {
+  width: 100%;
+  background: url("../images/whack_a_bug_preview2.jpg") no-repeat;
+  background-size: 100%;
+  text-align: center;
+  vertical-align: bottom;
+  padding-top: 450px;
+}
+
+.etsy-background {
   width: 100%;
   background: url("../images/desk_etsy2.jpg") no-repeat;
   background-size: 100%;
   text-align: center;
   vertical-align: bottom;
   padding-top: 450px;
-
-  //border: 1px dotted red;
-  //background: url("http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg")
 }
 
 .resume-page {
