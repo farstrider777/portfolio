@@ -367,11 +367,53 @@ font-size: 15px;
       vertical-align: top;
       text-indent: 20px;
       opacity: .75;
+      margin-top: 20px;
+      border-top-left-radius: 7px;
+      border-top-right-radius: 7px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card-position1 {
+      background-color: #EEDDCD;
+      color: #4B370D;
+      width: 350px;
+      height: 219px;
+      vertical-align: top;
+      text-indent: 20px;
+      opacity: .75;
+      margin-top: 20px;
+      border-top-left-radius: 7px;
+      border-top-right-radius: 7px;
+  }
+
+  .card-position2 {
+      background-color: #EEDDCD;
+      color: #4B370D;
+      width: 350px;
+      height: 219px;
+      vertical-align: top;
+      text-indent: 20px;
+      opacity: .75;
+      margin-top: 20px;
+      border-top-left-radius: 7px;
+      border-top-right-radius: 7px;
+  }
+
+  .card-position3 {
+      background-color: #EEDDCD;
+      color: #4B370D;
+      width: 350px;
+      height: 219px;
+      vertical-align: top;
+      text-indent: 20px;
+      opacity: .75;
       margin-top: 50px;
       border-top-left-radius: 7px;
       border-top-right-radius: 7px;
   }
 }
+
 
 .card-title {
   font-size: 24px;
@@ -437,6 +479,21 @@ font-size: 15px;
     }
   }
 }
+
+/////
+@media screen and (max-width: 400px) {
+  .contact-section {
+    font-size: 24px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    i {
+      width: 100px;
+    }
+  }
+}
+
+
 
 .interview-title {
   margin-top: 50px;
