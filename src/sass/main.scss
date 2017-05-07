@@ -169,67 +169,208 @@ a:active {
   }
 }
 
-.card-text {
+.card-text1 {
   background-color: #EEDDCD;
   color: #4B370D;
   width: 330px;
-  height: 145px;
+  height: 150px;
   vertical-align: top;
   text-indent: 20px;
   padding-left: 10px;
   padding-right: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   text-align: left;
+  font-size: 15px;
 }
 
 .card-text2 {
 background-color: #EEDDCD;
 color: #4B370D;
 width: 330px;
-height: 214px;
+height: 150px;
 vertical-align: top;
 text-indent: 20px;
 padding-left: 10px;
 padding-right: 10px;
-margin-top: 20px;
+margin-top: 10px;
 text-align: left;
+font-size: 15px;
 }
 
 .card-text3 {
   background-color: #EEDDCD;
   color: #4B370D;
   width: 330px;
-  height: 134px;
+  height: 140px;
   vertical-align: top;
   text-indent: 20px;
   padding-left: 10px;
   padding-right: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: left;
-  font-size: 14px;
+  font-size: 15px;
 }
 
-.card-position {
+.card-position1 {
     background-color: #EEDDCD;
     color: #4B370D;
     width: 350px;
-    height: 150px;
+    height: 219px;
     vertical-align: top;
     text-indent: 20px;
+    opacity: .8;
+    margin-top: 300px;
     //text-align: center;
-    //border-radius: 5px;
+    border-radius: 7px;
+}
+
+.card-position2 {
+    background-color: #EEDDCD;
+    color: #4B370D;
+    width: 350px;
+    height: 219px;
+    vertical-align: top;
+    text-indent: 20px;
+    opacity: .8;
+    margin-top: 450px;
+    //text-align: center;
+    border-radius: 7px;
 }
 
 .card-position3 {
     background-color: #EEDDCD;
     color: #4B370D;
     width: 350px;
-    height: 150px;
+    height: 200px;
     vertical-align: top;
     text-indent: 20px;
-    opacity: .5;
+    opacity: .8;
+    margin-top: 450px;
     //text-align: center;
-    //border-radius: 5px;
+    border-radius: 7px;
+}
+
+@media screen and (max-width: 800px) {
+  .card-position1 {
+      background-color: #EEDDCD;
+      color: #4B370D;
+      width: 350px;
+      height: 219px;
+      vertical-align: top;
+      text-indent: 20px;
+      opacity: .8;
+      margin-top: 200px;
+      //text-align: center;
+      border-radius: 7px;
+  }
+
+  .card-position2 {
+      background-color: #EEDDCD;
+      color: #4B370D;
+      width: 350px;
+      height: 219px;
+      vertical-align: top;
+      text-indent: 20px;
+      opacity: .8;
+      margin-top: 200px;
+      //text-align: center;
+      border-radius: 7px;
+  }
+
+  .card-position3 {
+      background-color: #EEDDCD;
+      color: #4B370D;
+      width: 350px;
+      height: 219px;
+      vertical-align: top;
+      text-indent: 20px;
+      opacity: .8;
+      margin-top: 200px;
+      //text-align: center;
+      border-radius: 7px;
+  }
+}
+
+@media screen and (max-width: 627px) {
+  .card-position1 {
+      background-color: #EEDDCD;
+      color: #4B370D;
+      width: 350px;
+      height: 219px;
+      vertical-align: top;
+      text-indent: 20px;
+      opacity: .8;
+      margin-top: 100px;
+      //text-align: center;
+      border-radius: 7px;
+  }
+
+  .card-position2 {
+      background-color: #EEDDCD;
+      color: #4B370D;
+      width: 350px;
+      height: 219px;
+      vertical-align: top;
+      text-indent: 20px;
+      opacity: .8;
+      margin-top: 100px;
+      //text-align: center;
+      border-radius: 7px;
+  }
+
+  .card-position3 {
+      background-color: #EEDDCD;
+      color: #4B370D;
+      width: 350px;
+      height: 219px;
+      vertical-align: top;
+      text-indent: 20px;
+      opacity: .8;
+      margin-top: 100px;
+      //text-align: center;
+      border-radius: 7px;
+  }
+}
+
+@media screen and (max-width: 476px) {
+  .card-position1 {
+      background-color: #EEDDCD;
+      color: #4B370D;
+      width: 350px;
+      height: 219px;
+      vertical-align: top;
+      text-indent: 20px;
+      opacity: .8;
+      margin-top: 50px;
+      //text-align: center;
+      border-radius: 7px;
+  }
+
+  .card-position2 {
+      background-color: #EEDDCD;
+      color: #4B370D;
+      width: 350px;
+      height: 219px;
+      vertical-align: top;
+      text-indent: 20px;
+      opacity: .8;
+      margin-top: 50px;
+      //text-align: center;
+      border-radius: 7px;
+  }
+
+  .card-position3 {
+      background-color: #EEDDCD;
+      color: #4B370D;
+      width: 350px;
+      height: 219px;
+      vertical-align: top;
+      text-indent: 20px;
+      opacity: .8;
+      margin-top: 50px;
+      //text-align: center;
+      border-radius: 7px;
+  }
 }
 
 .card-title {
@@ -277,7 +418,7 @@ text-align: left;
   background-size: 100%;
   text-align: center;
   vertical-align: bottom;
-  padding-top: 450px;
+  //padding-top: 450px;
 }
 
 .whack-a-bug-background {
@@ -286,16 +427,16 @@ text-align: left;
   background-size: 100%;
   text-align: center;
   vertical-align: bottom;
-  padding-top: 450px;
+  //padding-top: 450px;
 }
 
 .etsy-background {
   width: 100%;
-  background: url("../images/desk_etsy2.jpg") no-repeat;
+  background: url("../images/etsy_preview.jpg") no-repeat;
   background-size: 100%;
   text-align: center;
   vertical-align: bottom;
-  padding-top: 450px;
+  //padding-top: 450px;
 }
 
 .resume-page {
