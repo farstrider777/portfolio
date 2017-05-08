@@ -313,83 +313,155 @@ font-size: 15px;
 }
 
 @media screen and (max-width: 627px) {
+  .card-title {
+    font-size: 24px;
+    text-align: center;
+    border-bottom: 1px solid #4B370D;
+    text-indent: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: top;
+    //margin-top: 200px;
+  }
+
+  .show-ranker-background {
+    width: 100%;
+    background: url("../images/show_ranker_preview.jpg") no-repeat;
+    background-size: 100%;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 160px;
+  }
+
+  .whack-a-bug-background {
+    width: 100%;
+    background: url("../images/whack_a_bug_preview.jpg") no-repeat;
+    background-size: 100%;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 60px;
+  }
+
+  .etsy-background {
+    width: 100%;
+    background: url("../images/etsy_preview.jpg") no-repeat;
+    background-size: 100%;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 160px;
+  }
+
   .card-position1 {
       background-color: #EEDDCD;
       color: #4B370D;
       width: 350px;
-      height: 219px;
+      height: 45px;
       vertical-align: top;
       text-indent: 20px;
       opacity: .75;
       margin-top: 100px;
       border-top-left-radius: 7px;
       border-top-right-radius: 7px;
+      overflow: hidden;
   }
 
   .card-position2 {
       background-color: #EEDDCD;
       color: #4B370D;
       width: 350px;
-      height: 219px;
+      height: 45px;
       vertical-align: top;
       text-indent: 20px;
       opacity: .75;
       border-top-left-radius: 7px;
       border-top-right-radius: 7px;
+      overflow: hidden;
   }
 
   .card-position3 {
       background-color: #EEDDCD;
       color: #4B370D;
       width: 350px;
-      height: 219px;
+      height: 45px;
       vertical-align: top;
       text-indent: 20px;
       opacity: .75;
       margin-top: 100px;
       border-top-left-radius: 7px;
       border-top-right-radius: 7px;
+      overflow: hidden;
   }
 }
 
 @media screen and (max-width: 476px) {
+
+  .show-ranker-background {
+    width: 100%;
+    background: url("../images/show_ranker_preview.jpg") no-repeat;
+    background-size: 100%;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 130px;
+  }
+
+  .whack-a-bug-background {
+    width: 100%;
+    background: url("../images/whack_a_bug_preview.jpg") no-repeat;
+    background-size: 100%;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 130px;
+  }
+
+  .etsy-background {
+    width: 100%;
+    background: url("../images/etsy_preview.jpg") no-repeat;
+    background-size: 100%;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top:130px;
+  }
+
   .card-position1 {
       background-color: #EEDDCD;
       color: #4B370D;
       width: 350px;
-      height: 219px;
+      height: 45px;
       vertical-align: top;
       text-indent: 20px;
       opacity: .75;
       margin-top: 50px;
       border-top-left-radius: 7px;
       border-top-right-radius: 7px;
+      overflow: hidden;
   }
 
   .card-position2 {
       background-color: #EEDDCD;
       color: #4B370D;
       width: 350px;
-      height: 219px;
+      height: 45px;
       vertical-align: top;
       text-indent: 20px;
       opacity: .75;
       margin-top: 50px;
       border-top-left-radius: 7px;
       border-top-right-radius: 7px;
+      overflow: hidden;
   }
 
   .card-position3 {
       background-color: #EEDDCD;
       color: #4B370D;
       width: 350px;
-      height: 219px;
+      height: 45px;
       vertical-align: top;
       text-indent: 20px;
       opacity: .75;
       margin-top: 50px;
       border-top-left-radius: 7px;
       border-top-right-radius: 7px;
+      overflow: hidden;
   }
 }
 
@@ -398,7 +470,7 @@ font-size: 15px;
       background-color: #EEDDCD;
       color: #4B370D;
       width: 350px;
-      height: 219px;
+      height: 45px;
       vertical-align: top;
       text-indent: 20px;
       opacity: .75;
@@ -411,7 +483,7 @@ font-size: 15px;
       background-color: #EEDDCD;
       color: #4B370D;
       width: 350px;
-      height: 219px;
+      height: 45px;
       vertical-align: top;
       text-indent: 20px;
       opacity: .75;
@@ -424,7 +496,7 @@ font-size: 15px;
       background-color: #EEDDCD;
       color: #4B370D;
       width: 350px;
-      height: 219px;
+      height: 45px;
       vertical-align: top;
       text-indent: 20px;
       opacity: .75;
