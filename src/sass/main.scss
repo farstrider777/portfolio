@@ -77,7 +77,7 @@ a:active {
   font-size: 16px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1156px) {
   .logo-menu-bar {
     text-align: left;
   }
@@ -115,6 +115,26 @@ a:active {
 
 /////////////////////////home page////////////////////////////
 
+// #about {
+//   margin-top: 25px;
+// }
+//
+// #interviews {
+//   margin-top: 25px;
+// }
+//
+// #portfolio {
+//   margin-top: 25px;
+// }
+//
+// #contact {
+//   margin-top: 25px;
+// }
+
+
+.home-container {
+  padding-top: 32px;
+}
 
 .splash-image {
   width: 100%;
@@ -129,7 +149,7 @@ a:active {
 
 
 .about-title {
-  margin-top: 50px;
+  margin-top: 75px;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 3px;
   color: #EEDDCD;
@@ -147,7 +167,7 @@ a:active {
 }
 
 .portfolio-title {
-  margin-top: 50px;
+  margin-top: 75px;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 3px;
   color: #EEDDCD;
@@ -426,7 +446,7 @@ font-size: 15px;
 }
 
 .contact-title {
-  padding-top: 100px;
+  padding-top: 75px;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 3px;
   color: #EEDDCD;
@@ -496,7 +516,7 @@ font-size: 15px;
 
 
 .interview-title {
-  margin-top: 50px;
+  margin-top: 75px;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 3px;
   color: #EEDDCD;
