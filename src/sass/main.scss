@@ -81,7 +81,37 @@ a:active {
   font-size: 16px;
 }
 
+.resume-spacer1 {
+  height: 55px;
+  background-color: #44320b;
+}
+
+.resume-spacer2 {
+  height: 25px;
+  background-color: #44320b;
+}
+
+@media screen and (min-width: 730px) {
+
+  .resume-spacer1 {
+    height: 33px;
+  }
+
+  .resume-spacer2 {
+    height: 0px;
+  }
+}
+
 @media screen and (min-width: 1156px) {
+
+  .resume-spacer1 {
+    height: 33px;
+  }
+
+  .resume-spacer2 {
+    height: 0px;
+  }
+
   .logo-menu-bar {
     text-align: left;
   }
@@ -545,9 +575,8 @@ font-size: 15px;
 }
 
 @media screen and (max-width: 730px) {
-  // .resume-spacer{
-  //    height: 50px;
-  // }
+
+
 
   .contact-section {
     font-size: 18px;
@@ -651,15 +680,7 @@ font-size: 15px;
   text-align: center;
 }
 
-.resume-spacer1 {
-  height: 55px;
-  background-color: #44320b;
-}
 
-.resume-spacer2 {
-  height: 25px;
-  background-color: #44320b;
-}
 
 .end {
   height: 300px;
