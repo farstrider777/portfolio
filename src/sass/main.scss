@@ -3,6 +3,9 @@
 // }
 
 ///////////////////////////index/////////////////////////
+
+
+
 article {
   a {
     text-decoration: none;
@@ -129,6 +132,33 @@ a:active {
     padding-left: 29%;
     font-size: 16px;
   }
+
+  .show-ranker-background {
+    width: 100%;
+    background: url("../images/show_ranker_preview.jpg") no-repeat;
+    background-size: 100%;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 420px;
+  }
+
+  .whack-a-bug-background {
+    width: 100%;
+    background: url("../images/whack_a_bug_preview.jpg") no-repeat;
+    background-size: 100%;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 420px;
+  }
+
+  .etsy-background {
+    width: 100%;
+    background: url("../images/etsy_preview.jpg") no-repeat;
+    background-size: 100%;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 420px;
+  }
 }
 
 .thumb3 {
@@ -184,7 +214,21 @@ a:active {
   display: inline-block;
 }
 
+.float-left {
+  float: left;
+}
 
+.float-right {
+  float: right;
+}
+
+.arrow-space {
+  padding-left: 15px;
+}
+
+.git-space {
+  padding-right: 14px;
+}
 
 .about-title {
   margin-top: 75px;
@@ -274,39 +318,42 @@ font-size: 15px;
     background-color: #EEDDCD;
     color: #4B370D;
     width: 350px;
-    height: 219px;
+    height: 45px;
     vertical-align: top;
     text-indent: 20px;
     opacity: .75;
     margin-top: 300px;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
+    overflow: hidden;
 }
 
 .card-position2 {
     background-color: #EEDDCD;
     color: #4B370D;
     width: 350px;
-    height: 219px;
+    height: 45px;
     vertical-align: top;
     text-indent: 20px;
     opacity: .75;
     margin-top: 300px;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
+    overflow: hidden;
 }
 
 .card-position3 {
     background-color: #EEDDCD;
     color: #4B370D;
     width: 350px;
-    height: 200px;
+    height: 45px;
     vertical-align: top;
     text-indent: 20px;
     opacity: .75;
     margin-top: 300px;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 800px) {
@@ -314,39 +361,42 @@ font-size: 15px;
       background-color: #EEDDCD;
       color: #4B370D;
       width: 350px;
-      height: 219px;
+      height: 45px;
       vertical-align: top;
       text-indent: 20px;
       opacity: .75;
       margin-top: 200px;
       border-top-left-radius: 7px;
       border-top-right-radius: 7px;
+      overflow: hidden;
   }
 
   .card-position2 {
       background-color: #EEDDCD;
       color: #4B370D;
       width: 350px;
-      height: 219px;
+      height: 45px;
       vertical-align: top;
       text-indent: 20px;
       opacity: .75;
       margin-top: 200px;
       border-top-left-radius: 7px;
       border-top-right-radius: 7px;
+      overflow: hidden;
   }
 
   .card-position3 {
       background-color: #EEDDCD;
       color: #4B370D;
       width: 350px;
-      height: 219px;
+      height: 45px;
       vertical-align: top;
       text-indent: 20px;
       opacity: .75;
       margin-top: 200px;
       border-top-left-radius: 7px;
       border-top-right-radius: 7px;
+      overflow: hidden;
   }
 }
 
@@ -515,6 +565,7 @@ font-size: 15px;
       margin-top: 20px;
       border-top-left-radius: 7px;
       border-top-right-radius: 7px;
+      overflow: hidden;
   }
 
   .card-position2 {
@@ -528,6 +579,7 @@ font-size: 15px;
       margin-top: 20px;
       border-top-left-radius: 7px;
       border-top-right-radius: 7px;
+      overflow: hidden;
   }
 
   .card-position3 {
@@ -541,6 +593,7 @@ font-size: 15px;
       margin-top: 20px;
       border-top-left-radius: 7px;
       border-top-right-radius: 7px;
+      overflow: hidden;
   }
 }
 
@@ -650,7 +703,7 @@ font-size: 15px;
   background-size: 100%;
   text-align: center;
   vertical-align: bottom;
-  //padding-top: 450px;
+  padding-top: 200px;
 }
 
 .whack-a-bug-background {
@@ -659,7 +712,7 @@ font-size: 15px;
   background-size: 100%;
   text-align: center;
   vertical-align: bottom;
-  //padding-top: 450px;
+  padding-top: 200px;
 }
 
 .etsy-background {
@@ -668,20 +721,35 @@ font-size: 15px;
   background-size: 100%;
   text-align: center;
   vertical-align: bottom;
-  //padding-top: 450px;
+  padding-top: 200px;
 }
 
 .git-tag {
   font-size: 10px;
   width:25px;
+  margin-right: 1px;
 }
 
 .resume-page {
   text-align: center;
 }
 
+.closed{
 
+}
 
+.open{
+  height: 229px;
+}
+
+.up {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  padding-right: 15px;
+}
 .end {
   height: 300px;
   background-color: #4B370D;
