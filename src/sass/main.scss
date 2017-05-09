@@ -69,6 +69,10 @@ a:active {
   z-index: 2;
 }
 
+.smallText {
+  font-size: 12px;
+}
+
 .logo {
   font-size: 24px;
 }
@@ -80,6 +84,10 @@ a:active {
 @media screen and (min-width: 1156px) {
   .logo-menu-bar {
     text-align: left;
+  }
+
+  .smallText {
+    text-align: center;
   }
 
   .logo {
@@ -640,7 +648,7 @@ font-size: 15px;
 }
 
 .resume-spacer {
-  height: 40px;
+  height: 33px;
 }
 
 .end {
