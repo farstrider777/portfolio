@@ -69,7 +69,7 @@ a:active {
   z-index: 2;
 }
 
-.smallText {
+.sizeAdjustment {
   font-size: 12px;
 }
 
@@ -86,7 +86,7 @@ a:active {
     text-align: left;
   }
 
-  .smallText {
+  .sizeAdjustment {
     text-align: center;
   }
 
@@ -545,6 +545,10 @@ font-size: 15px;
 }
 
 @media screen and (max-width: 730px) {
+  // .resume-spacer{
+  //    height: 50px;
+  // }
+
   .contact-section {
     font-size: 18px;
     margin-left: 10%;
@@ -647,8 +651,14 @@ font-size: 15px;
   text-align: center;
 }
 
-.resume-spacer {
-  height: 33px;
+.resume-spacer1 {
+  height: 55px;
+  background-color: #44320b;
+}
+
+.resume-spacer2 {
+  height: 25px;
+  background-color: #44320b;
 }
 
 .end {
