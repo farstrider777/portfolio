@@ -1,5 +1,25 @@
 
 function Home ($scope, $http, $state, $rootScope, $window, $location, $anchorScroll){
+  $scope.ngMenu = 'menu-closed';
+  $scope.ngSpacer = 'home-spacer-open';
+  $scope.showMenu = function(){
+    // console.log('hello');
+    // $scope.ngMenu = 'menu-open';
+
+    if ($scope.ngMenu === 'menu-closed')
+      $scope.ngMenu = 'menu-open';
+    else
+      $scope.ngMenu = 'menu-closed';
+
+    if ($scope.ngSpacer === 'home-spacer-closed'){
+      $scope.ngSpacer = 'home-spacer-open';
+      console.log('in')
+    }
+    else{
+      $scope.ngSpacer= 'home-spacer-closed';
+    }
+
+  };
   $scope.goToAbout = function(){
     //$location.hash('about');
     $window.location.href = '#!/home#about';
@@ -36,7 +56,6 @@ function Home ($scope, $http, $state, $rootScope, $window, $location, $anchorScr
   $scope.expand2 = 'closed';
   $scope.arrowDirection2 = 'down';
   $scope.openWhackABugDes = function(){
-    console.log("test2")
     if ($scope.expand2 === 'closed')
       $scope.expand2 = 'open';
     else

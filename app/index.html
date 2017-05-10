@@ -11,15 +11,16 @@
     <script src="https://use.fontawesome.com/72bd55eeac.js"></script>
   </head>
   <body ng-app="app" class="container">
-    <div class="logo-menu-bar">
+    <div class="logo-menu-bar" ng-controller="HomeController">
       <article class="inline logo"><a href="#!/home">Joshua Bradford</a> </article>
-      <article class="inline menu" ng-controller="HomeController">
-        <a class="inline" ng-click="goToAbout()">About</a>
-        <a class="inline" ng-click="goToPortfolio()">Portfolio</a>
-        <a class="inline" href="#!/resume">Resume</a>
-        <a class="inline" ng-click="goToInterviews()">Interviews</a>
-        <a class="inline" href="https://medium.com/@joshuabradford">Blog</a>
-        <a class="inline" ng-click="goToContact()">Contact</a>
+      <i class="fa fa-bars  fa-2x menu-select" aria-hidden="true" ng-click="showMenu()"></i>
+      <article class="inline menu" ng-class="ngMenu">
+        <a class="inline menu-button" ng-click="goToAbout()">About</a>
+        <a class="inline menu-button" ng-click="goToPortfolio()">Portfolio</a>
+        <a class="inline menu-button" href="#!/resume">Resume</a>
+        <a class="inline menu-button" ng-click="goToInterviews()">Interviews</a>
+        <a class="inline menu-button" href="https://medium.com/@joshuabradford">Blog</a>
+        <a class="inline menu-button" ng-click="goToContact()">Contact</a>
       </article>
     </div>
     <div ui-view></div>

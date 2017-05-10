@@ -84,6 +84,7 @@ a:active {
   font-size: 16px;
 }
 
+
 .resume-spacer1 {
   height: 55px;
   background-color: #44320b;
@@ -103,6 +104,8 @@ a:active {
   .resume-spacer2 {
     height: 0px;
   }
+
+
 }
 
 @media screen and (min-width: 1156px) {
@@ -540,6 +543,30 @@ font-size: 15px;
   }
 }
 
+.menu-select {
+  width: 0px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 496px) {
+
+  .menu {
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+  }
+  .menu-select {
+    width: 50px;
+    //margin-top: 100px;
+    vertical-align: bottom;
+  }
+  .menu-button{
+    display: block;
+    text-align: left;
+  }
+
+}
+
 @media screen and (max-width: 476px) {
 
   .show-ranker-background {
@@ -688,8 +715,6 @@ font-size: 15px;
 
 @media screen and (max-width: 730px) {
 
-
-
   .contact-section {
     font-size: 18px;
     margin-left: 10%;
@@ -793,6 +818,26 @@ font-size: 15px;
   text-align: center;
 }
 
+.home-spacer-closed {
+  height: 0px;
+}
+
+.home-spacer-open {
+  height: 1000px;
+}
+
+.menu-closed {
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+}
+
+.menu-open {
+  width: 100%;
+  height: auto;
+  font-size: 24px;
+}
+
 .closed{
 
 }
@@ -816,6 +861,22 @@ font-size: 15px;
     from {height: 48px;}
     to {height: 229;}
 }
+
+@media screen and (min-width: 497px) {
+  .menu-closed {
+    width: 496px;
+    height: auto;
+  }
+  .menu-open {
+    width: 496px;
+    height: auto;
+    font-size: 16px;
+  }
+  .home-spacer-open {
+    height: 0px;
+  }
+}
+
 
 .end {
   height: 300px;
