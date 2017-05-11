@@ -1,5 +1,6 @@
 
 function Home ($scope, $http, $state, $rootScope, $window, $location, $anchorScroll){
+  console.log('hello i am the home contoller')
   $scope.ngMenu = 'menu-closed';
   $scope.ngSpacer = 'home-spacer-closed';
   $scope.expand = 'closed';

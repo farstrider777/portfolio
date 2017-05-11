@@ -1,6 +1,6 @@
 
 function Menu ($scope, $http, $state, $rootScope, $window, $location, $anchorScroll){
-  console.log("this is menu controller i am online")
+  console.log('this is menu controller i am online')
   // $scope.ngMenu = 'menu-closed';
   // $scope.ngSpacer = 'home-spacer-closed';
   // $scope.expand = 'closed';
@@ -103,6 +103,6 @@ function Menu ($scope, $http, $state, $rootScope, $window, $location, $anchorScr
 
 }
 
-Home.$inject = ['$scope', '$http', '$state', '$rootScope', '$window', '$location', '$anchorScroll'];
+Menu.$inject = ['$scope', '$http', '$state', '$rootScope', '$window', '$location', '$anchorScroll'];
 
 export default Menu;
