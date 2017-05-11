@@ -1,11 +1,10 @@
 
 function Home ($scope, $http, $state, $rootScope, $window, $location, $anchorScroll){
   console.log('hello i am the home contoller')
-  $scope.ngMenu = 'menu-closed';
+
   $scope.ngSpacer = 'home-spacer-closed';
   $scope.expand = 'closed';
   $scope.showMenu = function(){
-    // console.log('hello');
     // $scope.ngMenu = 'menu-open';
 
     if ($scope.ngMenu === 'menu-closed')
@@ -15,7 +14,7 @@ function Home ($scope, $http, $state, $rootScope, $window, $location, $anchorScr
 
       if ($scope.expand === 'closed'){
         $scope.expand = 'open';
-        console.log("hey")
+        console.log("hey from home controllers if expand state in home controller")
       }
       else{
         $scope.expand = 'closed';
@@ -32,33 +31,13 @@ function Home ($scope, $http, $state, $rootScope, $window, $location, $anchorScr
     // }
 
   };
-  $scope.goToAbout = function(){
-    //$location.hash('about');
-    $window.location.href = '#!/home#about';
-    $anchorScroll();
-  };
-  $scope.goToPortfolio = function(){
-    // $location.hash('portfolio');
-    $window.location.href = '#!/home#portfolio';
-    $anchorScroll();
-  };
-  $scope.goToInterviews = function(){
-    // $location.hash('interviews');
-    $window.location.href = '#!/home#interviews';
-    $anchorScroll();
-  };
-  $scope.goToContact = function(){
-    // $location.hash('contact');
-    $window.location.href = '#!/home#contact';
-    $anchorScroll();
-  };
+
   //$scope.expand = 'closed';
   $scope.arrowDirection = 'down';
+
+  
   $scope.openShowRankerDes = function(){
-    // if ($scope.expand === 'closed')
-    //   $scope.expand = 'open';
-    // else
-    //   $scope.expand = 'closed';
+  console.log("ran function openShowRankerDes in home controller")
     if ($scope.expand === 'closed'){
       $scope.expand = 'open';
       console.log("hey2")

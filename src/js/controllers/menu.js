@@ -1,6 +1,61 @@
 
 function Menu ($scope, $http, $state, $rootScope, $window, $location, $anchorScroll){
   console.log('this is menu controller i am online')
+  $scope.ngSpacer = 'home-spacer-closed';
+  $scope.ngMenu = 'menu-closed';
+  $scope.expand = 'closed';
+  $scope.showMenu = function(){
+    // console.log('hello');
+    // $scope.ngMenu = 'menu-open';
+
+    if ($scope.ngMenu === 'home-spacer-closed'){
+      $scope.ngMenu = 'home-spacer-open';
+      console.log("hey menu's if ngMenu statement in the menu contoller")
+    }else{
+      $scope.ngMenu = 'home-spacer-closed';
+    }
+
+
+      if ($scope.expand === 'closed'){
+        $scope.expand = 'open';
+        console.log("hey menu's if expand statement in the menu contoller")
+      }
+      else{
+        $scope.expand = 'closed';
+      }
+
+    // if ($scope.ngSpacer === 'home-spacer-closed'){
+    //   $scope.ngSpacer = 'home-spacer-open';
+    //   console.log('in')
+    // }
+    // else{
+    //   $scope.ngSpacer= 'home-spacer-closed';
+    // }
+
+  };
+
+
+  $scope.goToAbout = function(){
+    //$location.hash('about');
+    $window.location.href = '#!/home#about';
+    $anchorScroll();
+  };
+  $scope.goToPortfolio = function(){
+    // $location.hash('portfolio');
+    $window.location.href = '#!/home#portfolio';
+    $anchorScroll();
+  };
+  $scope.goToInterviews = function(){
+    // $location.hash('interviews');
+    $window.location.href = '#!/home#interviews';
+    $anchorScroll();
+  };
+  $scope.goToContact = function(){
+    // $location.hash('contact');
+    $window.location.href = '#!/home#contact';
+    $anchorScroll();
+  };
+
   // $scope.ngMenu = 'menu-closed';
   // $scope.ngSpacer = 'home-spacer-closed';
   // $scope.expand = 'closed';
