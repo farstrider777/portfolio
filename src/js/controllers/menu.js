@@ -5,6 +5,7 @@ function Menu ($scope, $http, $state, $rootScope, $window, $location, $anchorScr
   //AccountService.test("test from home controller")
 
   $scope.ngMenu = 'menu-closed';
+  $rootScope.ngSpacer = 'home-spacer-closed';
 
   $scope.showMenu = function(){
     if ($scope.ngMenu === 'menu-closed'){
