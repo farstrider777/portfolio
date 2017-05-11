@@ -4,7 +4,7 @@ function Home ($scope, $http, $state, $rootScope, $window, $location, $anchorScr
   console.log('hello i am the home contoller')
   //AccountService.test('test from home controller')
 
-  $rootScope.ngSpacer = 'home-spacer-closed';
+  //$rootScope.ngSpacer = 'home-spacer-closed';
   $scope.expand = 'closed';
   $scope.arrowDirection = 'down';
 
