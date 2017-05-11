@@ -1,7 +1,8 @@
 
 function Home ($scope, $http, $state, $rootScope, $window, $location, $anchorScroll){
   $scope.ngMenu = 'menu-closed';
-  $scope.ngSpacer = 'home-spacer-open';
+  $scope.ngSpacer = 'home-spacer-closed';
+  $scope.expand = 'closed';
   $scope.showMenu = function(){
     // console.log('hello');
     // $scope.ngMenu = 'menu-open';
@@ -11,13 +12,23 @@ function Home ($scope, $http, $state, $rootScope, $window, $location, $anchorScr
     else
       $scope.ngMenu = 'menu-closed';
 
-    if ($scope.ngSpacer === 'home-spacer-closed'){
-      $scope.ngSpacer = 'home-spacer-open';
-      console.log('in')
-    }
-    else{
-      $scope.ngSpacer= 'home-spacer-closed';
-    }
+      if ($scope.expand === 'closed'){
+        $scope.expand = 'open';
+        console.log("hey")
+      }
+      else{
+        $scope.expand = 'closed';
+      }
+
+
+
+    // if ($scope.ngSpacer === 'home-spacer-closed'){
+    //   $scope.ngSpacer = 'home-spacer-open';
+    //   console.log('in')
+    // }
+    // else{
+    //   $scope.ngSpacer= 'home-spacer-closed';
+    // }
 
   };
   $scope.goToAbout = function(){
@@ -40,13 +51,21 @@ function Home ($scope, $http, $state, $rootScope, $window, $location, $anchorScr
     $window.location.href = '#!/home#contact';
     $anchorScroll();
   };
-  $scope.expand = 'closed';
+  //$scope.expand = 'closed';
   $scope.arrowDirection = 'down';
   $scope.openShowRankerDes = function(){
-    if ($scope.expand === 'closed')
+    // if ($scope.expand === 'closed')
+    //   $scope.expand = 'open';
+    // else
+    //   $scope.expand = 'closed';
+    if ($scope.expand === 'closed'){
       $scope.expand = 'open';
-    else
+      console.log("hey2")
+    }
+    else{
       $scope.expand = 'closed';
+    }
+
 
     if ($scope.arrowDirection === 'down')
       $scope.arrowDirection = 'up';

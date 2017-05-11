@@ -820,10 +820,13 @@ font-size: 15px;
 
 .home-spacer-closed {
   height: 0px;
+  overflow: hidden;
 }
 
 .home-spacer-open {
   height: 1000px;
+  width: 1000px;
+  //overflow: hidden;
 }
 
 .menu-closed {
@@ -874,6 +877,7 @@ font-size: 15px;
   }
   .home-spacer-open {
     height: 0px;
+    //overflow: hidden;
   }
 }
 
