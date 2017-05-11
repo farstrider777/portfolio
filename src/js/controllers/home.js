@@ -4,38 +4,8 @@ function Home ($scope, $http, $state, $rootScope, $window, $location, $anchorScr
 
   $scope.ngSpacer = 'home-spacer-closed';
   $scope.expand = 'closed';
-  $scope.showMenu = function(){
-    // $scope.ngMenu = 'menu-open';
-
-    if ($scope.ngMenu === 'menu-closed')
-      $scope.ngMenu = 'menu-open';
-    else
-      $scope.ngMenu = 'menu-closed';
-
-      if ($scope.expand === 'closed'){
-        $scope.expand = 'open';
-        console.log("hey from home controllers if expand state in home controller")
-      }
-      else{
-        $scope.expand = 'closed';
-      }
-
-
-
-    // if ($scope.ngSpacer === 'home-spacer-closed'){
-    //   $scope.ngSpacer = 'home-spacer-open';
-    //   console.log('in')
-    // }
-    // else{
-    //   $scope.ngSpacer= 'home-spacer-closed';
-    // }
-
-  };
-
-  //$scope.expand = 'closed';
   $scope.arrowDirection = 'down';
 
-  
   $scope.openShowRankerDes = function(){
   console.log("ran function openShowRankerDes in home controller")
     if ($scope.expand === 'closed'){
@@ -52,8 +22,10 @@ function Home ($scope, $http, $state, $rootScope, $window, $location, $anchorScr
     else
       $scope.arrowDirection = 'down';
   };
+
   $scope.expand2 = 'closed';
   $scope.arrowDirection2 = 'down';
+
   $scope.openWhackABugDes = function(){
     if ($scope.expand2 === 'closed')
       $scope.expand2 = 'open';
@@ -67,6 +39,7 @@ function Home ($scope, $http, $state, $rootScope, $window, $location, $anchorScr
   };
   $scope.expand3 = 'closed';
   $scope.arrowDirection3 = 'down';
+
   $scope.openEtsyDes = function(){
     if ($scope.expand3 === 'closed')
       $scope.expand3 = 'open';

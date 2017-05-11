@@ -82,40 +82,43 @@ a:active {
 
 .menu {
   font-size: 16px;
+  vertical-align: bottom;
 }
 
-
 .resume-spacer1 {
-  height: 55px;
+  height: 33px;
   background-color: #44320b;
 }
 
 .resume-spacer2 {
-  height: 25px;
-  background-color: #44320b;
+  height: 18px;
 }
 
-@media screen and (min-width: 730px) {
-
+@media screen and (min-width: 471){
   .resume-spacer1 {
     height: 33px;
+    background-color: #44320b;
   }
+}
 
-  .resume-spacer2 {
-    height: 0px;
+
+@media screen and (min-width: 497px) {
+  .resume-spacer1 {
+    height: 59px;
   }
+}
 
 
+@media screen and (min-width: 738px) {
+  .resume-spacer1 {
+    height: 38px;
+  }
 }
 
 @media screen and (min-width: 1156px) {
 
   .resume-spacer1 {
-    height: 33px;
-  }
-
-  .resume-spacer2 {
-    height: 0px;
+    height: 38px;
   }
 
   .logo-menu-bar {
@@ -171,9 +174,6 @@ a:active {
 //     height: 33px;
 //   }
 //
-//   .resume-spacer2 {
-//     height: 0px;
-//   }
 //
 //   .logo-menu-bar {
 //     text-align: left;
