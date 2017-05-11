@@ -1,6 +1,8 @@
 
 function Menu ($scope, $http, $state, $rootScope, $window, $location, $anchorScroll){
   console.log('this is menu controller i am online')
+  //console.log(AccountService)
+  //AccountService.test("test from home controller")
 
   $scope.ngMenu = 'menu-closed';
 
@@ -12,12 +14,12 @@ function Menu ($scope, $http, $state, $rootScope, $window, $location, $anchorScr
       $scope.ngMenu = 'menu-closed';
     }
 
-    if ($scope.ngSpacer === 'home-spacer-closed'){
-      $scope.ngSpacer = 'home-spacer-open';
+    if ($rootScope.ngSpacer === 'home-spacer-closed'){
+      $rootScope.ngSpacer = 'home-spacer-open';
       console.log('in')
     }
     else{
-      $scope.ngSpacer= 'home-spacer-closed';
+      $rootScope.ngSpacer= 'home-spacer-closed';
     }
   };
 

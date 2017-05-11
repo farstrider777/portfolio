@@ -1,8 +1,10 @@
 
 function Home ($scope, $http, $state, $rootScope, $window, $location, $anchorScroll){
-  console.log('hello i am the home contoller')
 
-  $scope.ngSpacer = 'home-spacer-closed';
+  console.log('hello i am the home contoller')
+  //AccountService.test('test from home controller')
+
+  $rootScope.ngSpacer = 'home-spacer-closed';
   $scope.expand = 'closed';
   $scope.arrowDirection = 'down';
 
@@ -37,6 +39,7 @@ function Home ($scope, $http, $state, $rootScope, $window, $location, $anchorScr
     else
       $scope.arrowDirection2 = 'down';
   };
+
   $scope.expand3 = 'closed';
   $scope.arrowDirection3 = 'down';
 
