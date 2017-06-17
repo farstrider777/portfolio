@@ -10,14 +10,12 @@ function Menu ($scope, $http, $state, $rootScope, $window, $location, $anchorScr
   $scope.showMenu = function(){
     if ($scope.ngMenu === 'menu-closed'){
       $scope.ngMenu = 'menu-open';
-      console.log("hey menu's if ngMenu statement in the menu contoller")
     }else{
       $scope.ngMenu = 'menu-closed';
     }
 
     if ($rootScope.ngSpacer === 'home-spacer-closed'){
       $rootScope.ngSpacer = 'home-spacer-open';
-      console.log('in')
     }
     else{
       $rootScope.ngSpacer= 'home-spacer-closed';

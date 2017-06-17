@@ -12,7 +12,6 @@ function Home ($scope, $http, $state, $rootScope, $window, $location, $anchorScr
   console.log("ran function openShowRankerDes in home controller")
     if ($scope.expand === 'closed'){
       $scope.expand = 'open';
-      console.log("hey2")
     }
     else{
       $scope.expand = 'closed';
